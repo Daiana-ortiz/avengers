@@ -175,10 +175,6 @@ body{
         z-index: 1000;
     }
 
-    .navbar .logo {
-        display: none;
-    }
-
     .navbar .links{
        display: block;
        justify-content: center;

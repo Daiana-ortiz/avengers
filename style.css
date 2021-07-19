@@ -8,22 +8,25 @@
     font-family: 'Marvel', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: url(Images/background.jpg);
+    height: 200vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
+    align-content: center;
 }
 
 /* navbar styling  */
 
 .navbar {
-    position: fixed;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 200px;
+    height: 100px;
     align-items: center;
 }
 
@@ -37,7 +40,7 @@ body{
     
 .navbar .logo{
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 .navbar .logo img{
     height: 130px;
@@ -86,9 +89,10 @@ body{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 700px;
+    height: 100vh;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 30px;
+   
 }
 
 .inicio .contenedor{
@@ -146,6 +150,63 @@ body{
     text-shadow: 1px 1px 2px #427388; 
   }
 
+  /* characters styling start */
+
+  .characters{
+      width: 100%;
+      height: 100vh;
+      margin-top: 10px;
+  }
+
+  .characters h1{
+    text-align: center;
+    color: #fff;
+    font-size: 2.6rem;
+    margin-bottom: 30px;
+}
+
+  .characters .container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+
+  .characters .container .character{
+      width: 28%;
+      text-align: center;
+      height: 100%;
+      font-size: 30px;
+      color: #fff;
+      margin-bottom: 40px;
+      border: 3px solid white;
+  }
+
+  .characters .container .character .imagen{
+      width: 100%;
+      background: black;
+  }
+
+  .characters .container .character img{
+      width: 60%;
+      height: 230px;
+      padding-top: 30px; 
+  }
+
+  .characters .container .character img:hover{
+    transform: scale(1.1);
+    transition: 1s transform ease;
+}
+
+  .characters .container .character h3{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+  .characters .container .character p{
+      font-size: 20px;
+      padding: 0 10px 30px 0;
+  }
 
   /* responsive styling  */
 

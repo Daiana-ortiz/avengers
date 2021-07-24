@@ -18,10 +18,12 @@
             <div class="links">
                 <a href="#inicio">Inicio</a>
                 <a href="#characters">Characters</a>
-                <a href="#">Movies</a>
+                <a href="#movies">Movies</a>
                 <a href="#">Contact</a>
             </div>
         </nav>
+
+    <div class="burguer">
         <button class="hamburger" id="hamburger">
             <svg viewBox="0 0 100 80" width="30" height="30" fill="#000">
               <rect width="90" height="10"></rect>
@@ -29,12 +31,13 @@
               <rect y="60" width="70" height="10"></rect>
             </svg>
         </button>
+    </div>
     </header>
         
     <section class="inicio" id="inicio">
         <div class="contenedor">
             <div class="logo">
-                <img src="images/logo.png" alt="">
+                <img src="images/mainlogo.png" alt="avengers-logo">
             </div>
             <div class="text">
                 <h1>Welcome to the Avenger´s Experience!</h1>
@@ -47,54 +50,80 @@
         <!-- characters section starts  -->
     
     <section class="characters" id="characters">
-        <h1>OUR HEROES</h1>
+        
+            <h2>OUR HEROES</h2>
+        
         <div class="container">
             
             <div class="character">
                 <div class="imagen">
                     <img src="Images/cap.jpg" alt="">
                     <h3>Capitan American</h3>
-                    <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p class="info">“Whosoever holds this hammer, if they be worthy, shall possess the power of Thor.”</p>
                 </div>
             </div>
             <div class="character">
                 <div class="imagen">
                     <img  src="Images/hawkeye.jpg" alt="">
                     <h3>Hawkeye</h3>
-                    <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p class="info">"Whosoever, be he worthy, shall haveth the power", whatever man! It's a trick!" "It is more than that, my friend!"</p>
                 </div>
             </div>
             <div class="character">
                 <div class="imagen">
                     <img  src="Images/hulk.jpg" alt="">
                     <h3>Hulk</h3>
-                    <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p class="info">"Any last words? Hulk...SMASH!"</p>
                 </div>
             </div>
             <div class="character">
                 <div class="imagen">
                     <img src="Images/ironman.jpg" alt="">
                     <h3>Iron Man</h3>
-                    <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p class="info">“I am Iron Man.” When do you think Tony Stark truly became Iron Man?</p>
                 </div>
             </div>
             <div class="character">
                 <div class="imagen">
                     <img src="Images/thor.jpg" alt="">
                     <h3>Thor</h3>
-                    <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p class="info">“You people are so petty, and tiny.” </p>
                 </div>
             </div>
             <div class="character">
                 <div class="imagen">
                     <img src="Images/blackwidow.jpg" alt="">
                     <h3>Black Widow</h3>
-                    <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p class="info">"I'm Always Picking Up After You Boys..."</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="movies" id="movies">
+        <h2>ALL THE AVENGERS MOVIES</h2>
+    <div class="movies-container">
+        <div class="carousel">
+            <div class="carousel-item carousel-item-visible">
+                <img src="/Images/item1.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="/Images/item2.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="/Images/item3.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="/Images/item4.jpg" alt="">
+            </div>
+
+            <div class="carousel-actions">
+                <button id="carousel-button-prev" aria-label="Previous slide"><</button>
+                <button id="carousel-button-next" aria-label="Next slide">></button>
+            </div>
+        </div>
+    </div>
+    </section>
 
 <script src="script.js"></script>
 </body>
